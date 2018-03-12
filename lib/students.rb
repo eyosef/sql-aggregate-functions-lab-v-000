@@ -1,10 +1,11 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "SELECT MAX(gpa) FROM @db;"
+  "SELECT MAX(gpa) FROM table_name;"
 end
 
 def lowest_student_gpa
+  "SELECT MIN(gpa) FROM table_name;"
 end
 
 def average_student_gpa
